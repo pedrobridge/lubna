@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Font helpers */
+.font-script { font-family: 'Great Vibes', cursive; }
+.font-display { font-family: 'Playfair Display', serif; }
+
+/* Cards e vidros elegantes */
+.glass {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.12);
+}
